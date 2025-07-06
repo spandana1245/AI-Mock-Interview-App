@@ -1,6 +1,6 @@
 import { BrowserRouter as Router,Route, Routes } from "react-router-dom";
 import PublicLayout from "@/layouts/public-layout";
-import HomePage from "@/routes/home";
+import {HomePage} from "@/routes/home";
 import AuthenticationLayout from "@/layouts/auth-layout";
 import SignInPage from "@/routes/signin";
 import SignUPPage from "@/routes/signup";
