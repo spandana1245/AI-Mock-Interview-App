@@ -39,13 +39,13 @@
 ## 📸 Screenshots
 
 ### 🔷 Home Page
-![Home](./public/assets/screenshots/homepage.png)
+![Home](./AI-Mock-Interview-APP/public/assets/screenshots/homepage.png)
 
 ### 📁 Dashboard
-![Dashboard](./public/assets/screenshots/Dashboard.png)
+![Dashboard](./AI-Mock-Interview-APP/public/assets/screenshots/Dashboard.png)
 
 ### 🧪 Interview Page
-![Generate](./public/assets/screenshots/Generate.png)
+![Generate](./AI-Mock-Interview-APP/public/assets/screenshots/Generate.png)
 
 ---
 
