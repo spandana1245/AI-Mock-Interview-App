@@ -43,7 +43,7 @@ const FooterLink: React.FC<FooterLinkProps> = ({ to, children }) => {
 
 export const Footer = () => {
   return (
-    <div className="w-full bg-black text-gray-300 hover:text-gray-100 py-10">
+    <div className="w-full bg-blue-600 text-gray-300 hover:text-gray-100 py-10">
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           

@@ -1,69 +1,96 @@
-# React + TypeScript + Vite
+# 🧠 AI Mentor – AI Mock Interview App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**AI Mentor** is a smart interview preparation platform that uses AI to simulate mock interviews, giving users personalized practice to boost confidence and job readiness. From real-time question generation to a sleek dashboard and analytics, it's your interview training partner – powered by AI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🎤 **AI-powered Interview Simulation**  
+  Get personalized, role-specific questions using real-time AI generation.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 📄 **Answer Drafting & Tracking**  
+  Write, revise, and track your mock responses easily.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- 📊 **Dashboard Overview**  
+  Manage, review, and revisit your past interviews anytime.
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- 🔐 **Secure User Authentication**  
+  Auth system powered by [Clerk](https://clerk.dev) to manage user sessions.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- 🌙 **Dark Mode Support**  
+  Toggle themes for optimal viewing day or night.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- ☁️ **Realtime Database**  
+  Interview data is stored securely with [Firebase Firestore](https://firebase.google.com/docs/firestore).
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🧑‍💻 Tech Stack
+
+| Category     | Tools Used                                   |
+|--------------|----------------------------------------------|
+| Frontend     | React, TypeScript, Vite                      |
+| UI Framework | Shadcn UI, TailwindCSS                      |
+| Auth         | Clerk                                        |
+| Database     | Firebase Firestore                          |
+| Icons        | Lucide React                                 |
+| Utilities    | React Router, Zod, React Hook Form, Sonner   |
+
+---
+
+## 📸 Screenshots
+
+### 🔷 Home Page
+![Home](./assets/screenshots/homepage.png)
+
+### 📁 Dashboard
+![Dashboard](./assets/screenshots/dashboard.png)
+
+### 🧪 Create Interview Page
+![Generate](./assets/screenshots/generate.png)
+
+---
+
+## 📦 Getting Started
+
+1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/AI-Mock-Interview-App.git
+cd AI-Mock-Interview-App
+
+2️⃣ Install Dependencies
+```bash
+npm install
+
+3️⃣ Set Up Environment Variables
+```bash
+Create a .env file in the root and add:
+
+VITE_CLERK_PUBLISHABLE_KEY=your-clerk-key
+VITE_FIREBASE_API_KEY=your-firebase-key
+VITE_FIREBASE_AUTH_DOMAIN=your-auth-domain
+VITE_FIREBASE_PROJECT_ID=your-project-id
+VITE_FIREBASE_STORAGE_BUCKET=your-bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your-messaging-id
+VITE_FIREBASE_APP_ID=your-app-id
+
+
+📈 Future Improvements
+
+📊 Performance analytics per category
+
+📅 Interview scheduling system
+
+📥 Resume parsing + question suggestions
+
+📬 Contact
+👩‍💻 Developed by: Spandana Elitam
+
+📧 Email: spandanaelitam1245@gmail.com
+
+🌐 GitHub: spandana1245
+
+📄 License
+Licensed under the MIT License
