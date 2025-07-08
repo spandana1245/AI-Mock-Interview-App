@@ -59,15 +59,14 @@
 ```bash
 git clone https://github.com/your-username/AI-Mock-Interview-App.git
 cd AI-Mock-Interview-App
-
+```
 2️⃣ Install Dependencies
 ```bash
 npm install
-
+```
 3️⃣ Set Up Environment Variables
-```bash
 Create a .env file in the root and add:
-
+```bash
 VITE_CLERK_PUBLISHABLE_KEY=your-clerk-key
 VITE_FIREBASE_API_KEY=your-firebase-key
 VITE_FIREBASE_AUTH_DOMAIN=your-auth-domain
@@ -75,9 +74,9 @@ VITE_FIREBASE_PROJECT_ID=your-project-id
 VITE_FIREBASE_STORAGE_BUCKET=your-bucket
 VITE_FIREBASE_MESSAGING_SENDER_ID=your-messaging-id
 VITE_FIREBASE_APP_ID=your-app-id
+```
 
-
-📈 Future Improvements
+## 📈 Future Improvements
 
 📊 Performance analytics per category
 
@@ -85,12 +84,13 @@ VITE_FIREBASE_APP_ID=your-app-id
 
 📥 Resume parsing + question suggestions
 
-📬 Contact
+## 📬 Contact
+
 👩‍💻 Developed by: Spandana Elitam
 
 📧 Email: spandanaelitam1245@gmail.com
 
 🌐 GitHub: spandana1245
 
-📄 License
+## 📄 License
 Licensed under the MIT License
