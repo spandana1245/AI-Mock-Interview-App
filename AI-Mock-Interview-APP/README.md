@@ -44,7 +44,7 @@
 ### 📁 Dashboard
 ![Dashboard](./public/assets/screenshots/Dashboard.png)
 
-### 🧪 Create Interview Page
+### 🧪 Interview Page
 ![Generate](./public/assets/screenshots/Generate.png)
 
 ---
