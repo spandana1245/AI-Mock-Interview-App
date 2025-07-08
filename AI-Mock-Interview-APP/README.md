@@ -18,9 +18,6 @@
 - 🔐 **Secure User Authentication**  
   Auth system powered by [Clerk](https://clerk.dev) to manage user sessions.
 
-- 🌙 **Dark Mode Support**  
-  Toggle themes for optimal viewing day or night.
-
 - ☁️ **Realtime Database**  
   Interview data is stored securely with [Firebase Firestore](https://firebase.google.com/docs/firestore).
 
@@ -57,8 +54,8 @@
 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/AI-Mock-Interview-App.git
-cd AI-Mock-Interview-App
+git clone https://github.com/spandana1245/AI-Mock-Interview-App.git
+cd AI-Mock-Interview-APP
 ```
 2️⃣ Install Dependencies
 ```bash
